@@ -1,0 +1,54 @@
+body {
+    background: black;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#create-edit {
+    height: 100%;
+}
+
+.content {
+    margin-top: 2.5rem;
+    background-color: rgba(43, 48, 53);
+    color: #D6D9DB;
+    border-radius: 20px;
+}
+
+.deled {
+    margin-top: 2.5rem;
+}
+
+.footer {
+   display: flex;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content a {
+    color: #D6D9DB;
+}
+
+.content a:hover {
+    color: #88939b;
+}
+
+.button-rad {
+    border-radius: 30px;
+}
+
+.dark-form {
+    background-color: #1A1A1B;
+    color: white !important;
+}
+.dark-form::placeholder {
+    color: #D7DADC;
+}
+.dark-form:focus {
+    background-color: #1A1A1B;
+    border-color: #88939b;
+}
